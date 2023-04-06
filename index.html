@@ -66,6 +66,7 @@
             <div class="col-md-75 col-xl-6 col-xxl-5 text-md-start text-center py-6">
               <h1 class="fw-light font-base fs-6 fs-xxl-7">We're <strong>determined </strong>for<br />your&nbsp;<strong>better life.</strong></h1>
               <p class="fs-1 mb-5">You can get the care you need 24/7 – be it online or in <br />person. You will be treated by caring specialist doctors. </p><a class="disabled btn btn-lg btn-primary rounded-pill" href="#!" role="button">Read More...</a>
+              <h1 class="test-h1"></h1>
             </div>
           </div>
         </div>
@@ -499,7 +500,8 @@
 
             <div class="col-lg-6 z-index-2 mb-5"><img class="w-100" src="assets/img/gallery/appointment.png" alt="..." /></div>
             <div class="col-lg-6 z-index-2">
-              <form class="row g-3">
+              <!--////////////////////////Form//////////////// -->
+              <form class="signup-form row g-3">
                 <div class="col-md-6">
                   <label class="visually-hidden" for="inputName">Name</label>
                   <input class="form-control form-livedoc-control" id="inputName" type="text" placeholder="Name" />
@@ -508,7 +510,7 @@
                   <label class="visually-hidden" for="inputPhone">Phone</label>
                   <input class="form-control form-livedoc-control" id="inputPhone" type="text" placeholder="Phone" />
                 </div>
-                <div class="col-md-6">
+                <!-- <div class="col-md-6">
                   <label class="form-label visually-hidden" for="inputCategory">Category</label>
                   <select class="form-select" id="inputCategory">
                     <option selected="selected">Category</option>
@@ -516,7 +518,7 @@
                     <option> Category Two</option>
                     <option> Category Three</option>
                   </select>
-                </div>
+                </div> -->
                 <div class="col-md-6">
                   <label class="form-label visually-hidden" for="inputEmail">Email</label>
                   <input class="form-control form-livedoc-control" id="inputEmail" type="email" placeholder="Email" />
@@ -527,10 +529,11 @@
                 </div>
                 <div class="col-12">
                   <div class="d-grid">
-                    <button class="btn btn-primary rounded-pill" type="submit">Sign in</button>
+                    <button class="btn btn-primary rounded-pill"  type="submit">Submit</button>
                   </div>
                 </div>
               </form>
+              <!--////////////////////////Form End//////////////// -->
             </div>
           </div>
         </div>
@@ -724,7 +727,9 @@
     <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
     <script src="vendors/fontawesome/all.min.js"></script>
     <script src="assets/js/theme.js"></script>
-    
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="firebase/firebase-app.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -1,12 +1,15 @@
-// disable all buttons
-function disableButtons() {
-    document.getElementById('btn1').disabled = true;
-    document.getElementById('btn2').disabled = true;
-    document.getElementById('btn3').disabled = true;
-    document.getElementById('btn4').disabled = true;
-    document.getElementById('btn5').disabled = true;
-    document.getElementById('btn6').disabled = true;
-    document.getElementById('btn7').disabled = true;
-    document.getElementById('btn8').disabled = true;
-    document.getElementById('btn9').disabled = true;
-}
+// const form = document.querySelector(".signup-form");
+// const userName = "";
+// const userEmail = document.getElementById('inputEmail');
+// const userPhone = document.getElementById('inputPhone');
+// const userComment = document.getElementById('validationTextarea');
+
+// form.addEventListener('submit', e => {
+//     e.preventDefault();
+//     let userName = form.inputName.value;
+//     console.log(userName)
+// })
+// // console.log(form.inputName.value)
+    // console.log(userEmail.value)
+    // console.log(userPhone.value)
+    // console.log(userComment.value)
